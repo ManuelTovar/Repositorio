@@ -1,30 +1,64 @@
-.o-info-container{
-    width: 100vw;
+body p{
+    text-align: justify;
+}
+
+.o-info-container p, h1, h2, h3 {
+    margin: 10px;
+}
+
+.o-info-container{ 
+    float: left;
+    width: 24%;
     background-color: blue;
+    height: 100vh;
+    margin-right: 1%;
+}
+
+.o-img-container{
+    background-color: chartreuse;
+    text-align: center;
+    padding: 1rem;
+    
 }
 
 .o-img-profile{
-    height: 10rem;
+    width: 100%;
+    height: auto;
+    border-radius: 150px;
+    
 }
 
 .o-portfolio-container{
-    margin: 2rem 5rem 1rem 0;
+    float: right; 
+    width: 75%;
+    height: 100vh;
     background-color: red;
-    padding: 1rem;
+  
 }
 
-.o-portfolio-container .o-brown{
-    background-color: brown;
+.o-portfolio-container h1{
+    text-align: center;
 }
 
 .o-project{
     background-color: white;
     padding: 1rem;
     margin: 1rem;
+    
 }
 
+.o-project h3{
+    text-decoration: underline;
+
+}
 
 #project2{
     background-color: yellow;
+
+}
+
+.o-brown{
+    background-color: brown;
+
 }
 
