@@ -1,64 +1,139 @@
+body{
+    display: flex;
+}
+
 body p{
     text-align: justify;
+ 
+}
+/*-----*/
+
+.o-info-container{
+    width: 24.5%;
+    margin-right: 0.5%;
+    background-color: #707875 ;
 }
 
-.o-info-container p, h1, h2, h3 {
-    margin: 10px;
-}
-
-.o-info-container{ 
-    float: left;
-    width: 24%;
-    background-color: blue;
-    height: 100vh;
-    margin-right: 1%;
+.o-info-container h3{
+     margin: 15px;
+     border-bottom: solid 0.5px white;
+     font-family: 'Open Sans';
+            font-style: Bold;
+            font-size: 25px;
+            color: white;
 }
 
 .o-img-container{
-    background-color: chartreuse;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+
     
 }
 
 .o-img-profile{
     width: 100%;
     height: auto;
-    border-radius: 150px;
+    border-radius: 100%;
     
 }
 
+.o-info-name{
+    text-align: center;
+    font-family: 'Open Sans';
+            font-style: normal;
+            font-size: 25px;
+            color: white;
+}
+
+.o-container-icon-info{
+    display: flex;
+    align-items: center;
+}
+
+.o-icon-info{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 30px;
+}
+
+.o-aboutme-text p{
+
+    margin: 30px;
+    font-family: 'Open Sans';
+            font-style: normal;
+            font-size: 14px;
+            color: white;
+}
+
+.o-information-data{
+
+    margin: 30px;
+    font-family: 'Open Sans';
+            font-style: normal;
+            font-size: 15px;
+            color: white;
+}
+
+/*-----*/
+
 .o-portfolio-container{
-    float: right; 
     width: 75%;
-    height: 100vh;
-    background-color: red;
+    background-color:#BFC1C0;
+    display: block;
   
 }
 
 .o-portfolio-container h1{
     text-align: center;
+    font-family: 'Open Sans';
+            font-style: normal;
+            font-size: 45px;
+            color: white;
+
 }
+
+/*-----*/
 
 .o-project{
     background-color: white;
     padding: 1rem;
     margin: 1rem;
+    border-radius: 10px;
     
 }
 
+.o-img-project{
+    width: 15rem;
+    text-align: center;
+
+}
+
 .o-project h3{
-    text-decoration: underline;
-
+    font-family: 'Open Sans';
+            font-style: normal;
+            font-size: 30px;
+            color: black;
+    border-bottom: 5px solid grey;
 }
 
-#project2{
-    background-color: yellow;
-
+.o-project p{
+    font-family: 'Open Sans';
+            font-style: normal;
+            font-size: 15px;
+            color: black;
 }
 
-.o-brown{
-    background-color: brown;
+/*-----*/
 
+.o-cotainer-icon{
+    display: flex;
+    align-items: center;
+}
+
+.o-icon-project{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    border-bottom: 5px solid grey;
 }
 
